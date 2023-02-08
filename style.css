@@ -1,9 +1,11 @@
  body {
-       background: rgb(14, 13, 12);
-       color: rgb(45, 45, 45);
+       background: rgba(0, 0, 0, 0);
+       color: rgb(248, 248, 248);
        padding: 10px;
        font-family: arial;
+       background-image:url("https://cdn.shopify.com/s/files/1/2301/5125/articles/f9ade5086d3206106b92cf17c8836bfd_870x.jpg?v=1643658350")
    }
+   
    #all-contents {
      max-width: 800px;
        margin: auto;
@@ -19,7 +21,7 @@
    h1 {
        display: flex;
        align-items: center;
-       color: rgb(5, 5, 5);
+       color: rgb(248, 248, 248);
        flex: 1;
        margin: 0;
    }
@@ -37,7 +39,7 @@
 
    /* main container area beneath menu */
    main {
-       background: rgb(255, 255, 255);
+       background: rgba(20, 20, 20, 0);
        display: flex;
    }
    .sidebar {
@@ -51,12 +53,28 @@
        flex: 1;
        padding: 15px;
    }
+ /* portfolio styles */
+         .content h1 {
+             color: rgb(255, 255, 255);
+         }
 
-   /* portfolio styles */
-   #interests {
-       border: 4px silver ridge;
-       padding: 8px;
-   }
-   h2, h3 {
-       margin: 0px;
-   }
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+
+         #portfolio li {
+             background: #fff;
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+         }
+
+         #portfolio li:hover {
+             background: #eee;
+         }
+
+         #portfolio a {
+             text-decoration: none;
+             color: #454545;
+         }
